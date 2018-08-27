@@ -1,0 +1,27 @@
+<!-- Posts section -->
+<div class="row">
+    <!-- BEGIN POSTS SECTION -->
+    {{ range first 12 (where .Site.RegularPages "Section" "in" (slice "news")) }}  
+        <!-- CARD  -->
+        <div class="col-sm-6 col-lg-6 pb-3">
+            <div class="card h-100">
+                {{ $plink := .Permalink}}
+                {{ $title := .Title }}
+                <div class="card-img">
+                    <a href="{{$plink}}" class="card-link">{{ partial "imagecode.html" . }}</a>
+                </div>             
+
+                <div class="card-body">
+                    <h4 class="card-title"><a href="{{.Permalink}}" class="card-link">{{.Title}}</a></h4>
+                    <p class="card-text">
+                        {{ .Summary }}
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <a href="{{.Permalink}}" class="card-link">Read more</a>
+                </div>
+            </div>
+        </div>
+    {{end}}   
+    <!-- END POSTS SECTION -->
+</div>

@@ -1,0 +1,41 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Wktvusa.com"
+disableHugoGeneratorInject = true
+disableKinds = ["taxonomyTerm"]
+summarylength = 30
+
+enableRobotsTXT = false
+disableAliases = true
+
+[params]
+disallow_search_engines = true # set robots.txt to disallow everything
+
+# add redirects/headers
+[outputs]
+home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
+
+# remove .{ext} from text/netlify
+suffix = ""
+delimiter = ""
+
+# add output format for netlify _redirects
+[outputFormats.REDIRECTS]
+baseName = "_redirects"
+isPlainText = true
+notAlternative = true
+
+# add output format for netlify _headers
+[outputFormats.HEADERS]
+baseName = "_headers"
+isPlainText = true
+notAlternative = true
+
+[imaging]
+# Default resample filter used for resizing. Default is Box,
+# a simple and fast averaging filter appropriate for downscaling.
+# See https://github.com/disintegration/imaging
+resampleFilter = "box"
+
+# Defatult JPEG quality setting. Default is 75.
+quality = 90

@@ -1,0 +1,42 @@
+{{ define "main" }}
+<div class="row">
+    <div class="col-md-12">
+        <h1 class="h2 text-center"> {{ .Title }}</h1>
+               
+        {{ .Content }}
+
+        <!-- BEGIN POSTS SECTION -->
+        <div class="blog">
+            <div class="row row-flex">
+            {{ range first 12 (where .Site.RegularPages "Section" "in" (slice "news")) }}  
+            
+             <!-- card  -->
+             <div class="col-sm-6 col-lg-4 pb-4">
+                       <div class="card h-100">
+                        <div class="card-img">
+                            <a href="{{.Permalink}}" class="card-link">
+                                {{ partial "imagecode.html" . }}                            
+                            </a>
+                        </div>
+        
+                        <div class="card-body ">
+                            <h4 class="card-title"><a href="{{.Permalink}}" class="card-link">{{.Title}}</a></h4>
+                            <p class="card-text">
+                                    {{ .Summary }}
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="{{.Permalink}}" class="card-link">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                    <!--  {{ dateFormat ( or $.Site.Params.dateFormat " Jan 02, 2006" ) .Params.lastmod }} -->
+           {{end}}
+            </div>
+        </div>
+        <!-- END POSTS SECTION -->
+
+     </div>
+    
+</div>
+{{ end }}

@@ -1,0 +1,9 @@
+{{ $page := . }} 
+{{ $yid := $page.Params.youtube}}
+{{ with .Site.GetPage "section" "images" }}
+    {{$imageFName := replace $page.Params.imagef "/images/" "" }}
+    {{ with .Resources.GetMatch $imageFName }}
+        {{ $image640x := (.Fill "600x400 smart") }}
+            <img src="{{ $image640x.RelPermalink }}" class="img-fluid p-2 video-btn" alt="{{ $image640x.Name }}"  data-toggle="modal" data-src="https://www.youtube.com/embed/{{ $yid }}" data-target="#myModal">
+    {{ end }}  
+{{ end }}

@@ -1,0 +1,29 @@
+backend:
+  name: git-gateway
+  
+media_folder: "content/images"
+public_folder: "/images"
+collections:
+  
+  - name: "news"
+    label: "News Item"
+    folder: "content/news"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Image", name: "imagef", widget: "image", required: false}
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "videos"
+    label: "Video News Item"
+    folder: "content/videos"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Image", name: "imagef", widget: "image", required: false}
+      - { label: "YouTube URL", name: "youtube", widget: "string" , pattern: [".{11,11}", "Must have 11 characters and match youtube id"]}
+      - { label: "Body", name: "body", widget: "markdown" }   

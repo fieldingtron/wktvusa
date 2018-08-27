@@ -1,0 +1,14 @@
+/public
+/node_modules
+/static/fonts
+/static/css/app.css
+/static/js/app.js
+.history
+.vscode
+.DS_Store
+src/.DS_Store
+/resources
+content/providers/debug.log
+wordpress-old-vagrant/jekyll*
+/tmp
+content.zip

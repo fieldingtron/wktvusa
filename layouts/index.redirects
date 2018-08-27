@@ -1,0 +1,189 @@
+# redirects for Netlify - https://www.netlify.com/docs/redirects/
+/home   / 302
+/best-nzb-sites-and-usenet-search-engines/  /nzbsites/
+/best-usenet-providers/ /providers/
+/best-newsreaders-and-usenet-software/ /newsreaders/
+/mainpages/ /
+
+#news
+/sign-dognzb-bitcoin/	/news/sign-dognzb-bitcoin/
+/usenetserver-announces-new-vpn-service/	/news/usenetserver-announces-new-vpn-service/
+/eweka-celebrates-10-years-free-vpn-offer/	/news/eweka-celebrates-10-years-free-vpn-offer/
+/newshostings-biggest-baddest-black-friday-and-cyber-monday-offering/	/news/newshostings-biggest-baddest-black-friday-and-cyber-monday-offering/
+/best-ten-cyber-monday-and-black-friday-specials-thus-far-2/	/news/best-ten-cyber-monday-and-black-friday-specials-thus-far-2/
+/usenetserver-starts-holiday-season-with-huge-discount-fall-special/	/news/usenetserver-starts-holiday-season-with-huge-discount-fall-special/
+/2013-top-quality-web-based-newsreader-sabnzbd/	/news/
+/2013-top-usenet-searchusenet-package-newshosting/	/news/
+/2013-best-small-usenet-newsreader-binreader/	/news/
+/2013-most-progressive-usenet-provider-award-giganews/	/news/
+/2013-most-improvement-for-a-usenet-provider-award/	/news/
+/2013-most-improved-newsreader-award-newshosting/	/news/
+/2013-stealth-and-anonymity-provider-award-astraweb/	/news/
+/2013-simple-usenet-provider-improvement-award-usenet-net/	/news/
+/2013-top-usenet-search-index-service/	/news/
+/2013-best-in-client-usenet-search-award-2/	/news/
+/2013-top-nzb-search-index-site/	/news/
+/2013-usenet-top-provider-award-giganews/	/news/
+/2013-easiest-to-use-usenet-provider-award-easynews/	/news/
+/2013-best-bang-for-the-buck-provider-award-usenetserver/	/news/
+/2013-back-to-the-basics-award-supernews/	/news/
+/2013-award-for-best-newsreader-newsbin-newsreader/	/news/
+/newshosting-survey-madness-is-looking-for-9-winners/	/news/newshosting-survey-madness-is-looking-for-9-winners/
+/nzbmatrix-has-closed-for-good-heres-what-you-can-do-for-your-search/	/news/nzbmatrix-has-closed-for-good-heres-what-you-can-do-for-your-search/
+/cryptocat-developer-held-and-questioned-by-dhs-about-app/	/news/cryptocat-developer-held-and-questioned-by-dhs-about-app/
+/holiday-weekend-terrabyte-tuesday-deal-announced/	/news/holiday-weekend-terrabyte-tuesday-deal-announced/
+/newznab-build-your-own-index/	/news/newznab-build-your-own-index/
+/new-sabnzbd-beta-version-0-7-0-has-some-nice-new-features/	/news/new-sabnzbd-beta-version-0-7-0-has-some-nice-new-features/
+/cispa-and-usenet-what-usenet-members-need-to-know/	/news/cispa-and-usenet-what-usenet-members-need-to-know/
+/merlins-portal-finally-closed-completely/	/news/merlins-portal-finally-closed-completely/
+/easynews-announces-retention-increases-nntp-only-more/	/news/easynews-announces-retention-increases-nntp-only-more/
+/big-brother-is-unleashed-uk-now-monitoring-internet-and-phone-traffic/	/news/big-brother-is-unleashed-uk-now-monitoring-internet-and-phone-traffic/
+/android-version-of-newsbin-client-to-be-released-soon/	/news/android-version-of-newsbin-client-to-be-released-soon/
+/like-alt-binz-now-theres-a-free-version/	/news/like-alt-binz-now-theres-a-free-version/
+/riaa-now-actively-monitoring-usenet-users/	/news/riaa-now-actively-monitoring-usenet-users/
+/newsgroupdirect-loving-the-terrabyte-tuesday/	/news/newsgroupdirect-loving-the-terrabyte-tuesday/
+/german-court-orders-rapidshare-to-filter-uploads/	/news/german-court-orders-rapidshare-to-filter-uploads/
+/sabnzbd-developers-issue-maintenance-release/	/news/sabnzbd-developers-issue-maintenance-release/
+/unlimited-and-block-plans-compared/	/news/unlimited-and-block-plans-compared/
+/new-version-of-nbremote-released-v-1-0-5/	/news/new-version-of-nbremote-released-v-1-0-5/
+/new-feature-for-dump-truck-folder-uploads/	/news/new-feature-for-dump-truck-folder-uploads/
+/australian-isp-internode-bails-out-on-usenet-service/	/news/australian-isp-internode-bails-out-on-usenet-service/
+/80-annual-plans-offered-by-astraweb/	/news/80-annual-plans-offered-by-astraweb/
+/newsbin-announces-the-release-of-newsbin-pro-v6-3-client/	/news/newsbin-announces-the-release-of-newsbin-pro-v6-3-client/
+/1300-days-retention-what-was-happening-in-august-2008/	/news/1300-days-retention-what-was-happening-in-august-2008/
+/newzbin2-has-new-site-address-newzbin2-es/	/news/newzbin2-has-new-site-address-newzbin2-es/
+/newsgroupdirect-letting-terrabyte-tuesday/	/news/newsgroupdirect-letting-terrabyte-tuesday/
+/british-finally-get-to-pirate-bay/	/news/british-finally-get-to-pirate-bay/
+/new-payment-options-now-available-at-newsdemon/	/news/new-payment-options-now-available-at-newsdemon/
+/dutch-find-600-website-takedowns-cause-for-celebration/	/news/dutch-find-600-website-takedowns-cause-for-celebration/
+/giganews-now-has-vyprvpn-app-available/	/news/giganews-now-has-vyprvpn-app-available/
+/sabnzbd-announces-release-of-new-version-6-14/	/news/sabnzbd-announces-release-of-new-version-6-14/
+/2012-easiest-to-use-usenet-provider-easynews/	/news/
+/2012-back-to-the-basics-award-supernews/	/news/
+/easynews-upps-retention-rates-again-now-we-get-1275-days-to-search/	/news/easynews-upps-retention-rates-again-now-we-get-1275-days-to-search/
+/2012-most-improved-newsreader-award-newshosting/	/news/
+/astraweb-announces-account-and-speed-cap-upgrades/	/news/astraweb-announces-account-and-speed-cap-upgrades/
+/2012-top-full-featured-newsreader-newsbin/	/news/
+/theusenet-giving-leap-year-usenet-special-discount/	/news/theusenet-giving-leap-year-usenet-special-discount/
+/2012-top-nzb-search-index-site-nzbmatrix/	/news/
+/free-vpn-service-announced-by-easynews/	/news/free-vpn-service-announced-by-easynews/
+/2012-best-small-usenet-newsreader-binreader/	/news/
+/twitter-starting-nation-based-censorship-is-google-next/	/news/twitter-starting-nation-based-censorship-is-google-next/
+/2012-top-usenet-search-index-service-binsearch/	/news/
+/anti-piracy-group-says-burden-of-proof-should-be-on-the-accused/	/news/anti-piracy-group-says-burden-of-proof-should-be-on-the-accused/
+/usenet-net-giving-up-the-goods-for-50-off/	/news/usenet-net-giving-up-the-goods-for-50-off/
+/2012-stealth-and-anonymity-provider-award-astraweb/	/news/
+/ex-ua-shut-down-for-piracy-issues-back-online-quickly-though/	/news/ex-ua-shut-down-for-piracy-issues-back-online-quickly-though/
+/75-off-unlimited-account-from-newsgroup-direct/	/news/75-off-unlimited-account-from-newsgroup-direct/
+/golden-frog-publishes-pics-of-dump-truck-storage-servers/	/news/golden-frog-publishes-pics-of-dump-truck-storage-servers/
+/megaupload-legit-customers-stand-a-chance-at-recovery/	/news/megaupload-legit-customers-stand-a-chance-at-recovery/
+/2012-top-quality-webbased-nzb-downloader-sabnzbd/	/news/
+/newzbin2-still-being-chased-now-they-are-es-not-com/	/news/newzbin2-still-being-chased-now-they-are-es-not-com/
+/2012-best-bang-for-the-buck-award-usenetserver/	/news/
+/the-2012-usenet-providers-award-giganews/	/news/
+/2012-most-improvement-for-a-usenet-provider-newshosting/	/news/
+/sopa-and-pipa-lost-major-support-but-still-no-guarantees/	/news/sopa-and-pipa-lost-major-support-but-still-no-guarantees/
+/stopping-the-piracy-needs-to-start-with-our-legislators/	/news/stopping-the-piracy-needs-to-start-with-our-legislators/
+/android-app-nzb-leech-now-available-in-app-store-as-a-free-download/	/news/android-app-nzb-leech-now-available-in-app-store-as-a-free-download/
+/usenet-credibility-rating-is-higher-than-internet-info-sources/	/news/usenet-credibility-rating-is-higher-than-internet-info-sources/
+/giganews-unleashes-webdav-for-all-oses-and-many-applications/	/news/giganews-unleashes-webdav-for-all-oses-and-many-applications/
+/binsearch-info-goes-down-due-to-hardware-failure-but-theyre-back-now/	/news/binsearch-info-goes-down-due-to-hardware-failure-but-theyre-back-now/
+/dump-truck-storage-review/	/news/dump-truck-storage-review/
+/newzbin-is-keeping-the-christmas-spirit-alive-into-the-new-year/	/news/newzbin-is-keeping-the-christmas-spirit-alive-into-the-new-year/
+/easynews-increases-retention-and-adds-paypal-just-in-time-for-the-holidays/	/news/easynews-increases-retention-and-adds-paypal-just-in-time-for-the-holidays/
+/happy-holidays-and-merry-christmas-usenet-holiday-specials/	/news/happy-holidays-and-merry-christmas-usenet-holiday-specials/
+/newshosting-newsreader-client-released-no-more-beta-versions/	/news/newshosting-newsreader-client-released-no-more-beta-versions/
+/a-look-into-the-future-%e2%80%93-internet-blacklisting-censorship-and-monitoring/	/news/a-look-into-the-future-%e2%80%93-internet-blacklisting-censorship-and-monitoring/
+/newsleecher-lets-it-snow-and-adds-in-supersearch-it/	/news/newsleecher-lets-it-snow-and-adds-in-supersearch-it/
+/a-new-vyprvpn-app-is-now-available-for-giganews-customers/	/news/a-new-vyprvpn-app-is-now-available-for-giganews-customers/
+/dump-truck-for-all-%e2%80%93-the-latest-giganews-offering/	/news/dump-truck-for-all-%e2%80%93-the-latest-giganews-offering/
+/how-to-install-and-configure-nbremote-the-new-newsbin-controller/	/news/how-to-install-and-configure-nbremote-the-new-newsbin-controller/
+/a-remote-you-wont-lose-%e2%80%93-nbremote-for-your-newsbin-pro/	/news/a-remote-you-wont-lose-%e2%80%93-nbremote-for-your-newsbin-pro/
+/have-the-sopa-opera-actors-gone-too-far/	/news/have-the-sopa-opera-actors-gone-too-far/
+/nzbsrus-shrugs-off-fact-letter-to-cease-and-desist/	/news/nzbsrus-shrugs-off-fact-letter-to-cease-and-desist/
+/european-union-condemns-sopa-as-an-infringement-on-others-rights/	/news/european-union-condemns-sopa-as-an-infringement-on-others-rights/
+/s-african-parliament-attacking-internet-and-journalistic-freedoms/	/news/s-african-parliament-attacking-internet-and-journalistic-freedoms/
+/black-friday-usenet-specials-2011/	/news/black-friday-usenet-specials-2011/
+/giganews-announces-retention-rate-of-more-than-1200-days/	/news/giganews-announces-retention-rate-of-more-than-1200-days/
+/net-neutrality-or-how-google-is-getting-into-your-pocket/	/news/net-neutrality-or-how-google-is-getting-into-your-pocket/
+/nzbvortex-updates-and-improves-their-mac-client/	/news/nzbvortex-updates-and-improves-their-mac-client/
+/mpa-continues-blocking-sites-this-time-its-nzbsrus/	/news/mpa-continues-blocking-sites-this-time-its-nzbsrus/
+/hardware-problems-lead-to-nzb-matrix-server-upgrade/	/news/hardware-problems-lead-to-nzb-matrix-server-upgrade/
+/uks-newzbin2-blacklist-in-place-will-it-work/	/news/uks-newzbin2-blacklist-in-place-will-it-work/
+/nbremote-a-remote-control-for-the-new-newsbin-client/	/news/nbremote-a-remote-control-for-the-new-newsbin-client/
+/nzbdstatus-for-firefox-now-monitor-your-sabnzbd-client/	/news/nzbdstatus-for-firefox-now-monitor-your-sabnzbd-client/
+/chrome-users-can-have-1-button-access-to-sabnzbd/	/news/chrome-users-can-have-1-button-access-to-sabnzbd/
+/newsbin-version-6-11-rc1-released-in-beta-testing/	/news/newsbin-version-6-11-rc1-released-in-beta-testing/
+/dumptruck-allowing-early-access-to-online-storage/	/news/dumptruck-allowing-early-access-to-online-storage/
+/nzbmatrix-on-mobile-sabsheep-has-some-cool-features/	/news/nzbmatrix-on-mobile-sabsheep-has-some-cool-features/
+/a-new-newshosting-client-released-today-version-1-1-0/	/news/a-new-newshosting-client-released-today-version-1-1-0/
+/marqueehd-gets-more-usenet-to-up-the-pressure-on-popcorn-hour/	/news/marqueehd-gets-more-usenet-to-up-the-pressure-on-popcorn-hour/
+/largest-european-usenet-provider-ordered-to-remove-all-infringing-content/	/news/largest-european-usenet-provider-ordered-to-remove-all-infringing-content/
+/newzbin-pro-6-1-available-move-over-sabnzbd-its-remote/	/news/newzbin-pro-6-1-available-move-over-sabnzbd-its-remote/
+/a-networked-media-server-the-popcorn-hour-a-%e2%80%93-210/	/news/a-networked-media-server-the-popcorn-hour-a-%e2%80%93-210/
+/newshosting-announces-new-client-out-of-beta-testing/	/news/newshosting-announces-new-client-out-of-beta-testing/
+/eminent-em7280-media-player-offers-usenet-torrent-and-hi-def/	/news/eminent-em7280-media-player-offers-usenet-torrent-and-hi-def/
+/giganews-browser-gets-new-header-control-and-interface/	/news/giganews-browser-gets-new-header-control-and-interface/
+/sabnzbd-on-your-mobile-heres-some-new-apps-to-add/	/news/sabnzbd-on-your-mobile-heres-some-new-apps-to-add/
+/olduse-net-%e2%80%93-the-usenet-of-thirty-years-ago-today/	/news/olduse-net-%e2%80%93-the-usenet-of-thirty-years-ago-today/
+/newzbin-vs-british-telecom-was-the-fight-rigged/	/news/newzbin-vs-british-telecom-was-the-fight-rigged/
+/easynews-ups-the-ante-on-retention-levels-again/	/news/easynews-ups-the-ante-on-retention-levels-again/
+/usenet-offers-more-than-sharing/	/news/usenet-offers-more-than-sharing/
+/unlimited-usenet-more-common/	/news/unlimited-usenet-more-common/
+/can-a-spanish-law-actually-fight-piracy/	/news/can-a-spanish-law-actually-fight-piracy/
+/3-year-retention-rates-for-newsdemon/	/news/3-year-retention-rates-for-newsdemon/
+/google-usenet-archive-has-hiccup/	/news/google-usenet-archive-has-hiccup/
+/running-on-mac-os-x-10-7-lion-nzbvortex%e2%80%99s-new-version-now-supports-it/	/news/running-on-mac-os-x-10-7-lion-nzbvortex%e2%80%99s-new-version-now-supports-it/
+/lulzsec-initiates-massive-data-leak-%e2%80%93-arizona-law-enforcement-the-target/	/news/lulzsec-initiates-massive-data-leak-%e2%80%93-arizona-law-enforcement-the-target/
+/free-newsreader-clients-%e2%80%93-a-list-of-usenet-providers/	/news/free-newsreader-clients-%e2%80%93-a-list-of-usenet-providers/
+/newsleecher-and-newsbin-release-client-compatible-with-ipad-iphone-and-android/	/news/newsleecher-and-newsbin-release-client-compatible-with-ipad-iphone-and-android/
+/swedish-government-denies-file-sharing-religion/	/news/swedish-government-denies-file-sharing-religion/
+/usenet-transforms-the-rave-scene/	/news/usenet-transforms-the-rave-scene/
+/newsbin-re-launches-their-website-and-newsreader/	/news/newsbin-re-launches-their-website-and-newsreader/
+
+#affurls
+/r/giganews http://www.giganews.com/specials/usenet-reviewz-diamond.html?a=gonkerdiamond    302
+/r/astraweb http://affiliate.astraweb.com/10082.html 302
+/r/usenext	http://www.TwinPlan.com/AF_TP/rel/index.cfm?RST=UNXCOM&ATP=406346	302
+/r/powerusenet http://www.powerusenet.com/?r=gonker 302
+/r/usenetnet	http://www.usenet.net/usenet-deals/?r=gonker_un	302
+/r/rhinonews	http://www.rhinonewsgroups.com/?r=gonker	302
+/r/supernews	http://www.supernews.com/superspecial.html?r=gonker_sn	302
+/r/easynews	https://www.easynews.com/partners/?a_aid=urz&a_bid=ef2f9ea1&chan=en_org	302
+/r/newsgroupdirect	http://www.newsgroupdirect.com?aff=8312124	302
+/r/thundernews	http://www.Thundernews.com/?aflid=1078	302
+/r/newsdemon	http://www.newsdemon.com/discount-usenet.php?affiliate_id=2663	302
+/r/ngroupsnet	http://Ngroups.NET/index.php?ref=gonker	302
+/r/usenetserver	https://accounts.usenetserver.com/register/chooseplan.php?rate=52&a_aid=urz&a_bid=5725b6ed&chan=en_org	302
+/r/newshosting	https://www.newshosting.com/partners/?a_aid=urz&a_bid=5ecfe99b&chan=en_org	302
+/r/vyprvpn	http://www.giganews.com/vyprvpn/?a=gonker:urz-vypr	302
+/r/winrar	http://www.shareit.com/product.html?productid=300012381&affiliateid=200097343	302
+/r/altbinaries	http://www.altbinaries.com	302
+/r/usenetnl	http://www.FriendlyDuck.com/AF_TA/rel/index.cfm?RST=UNF&TAD=418350	302
+/r/newsguy	http://db.newsguy.com/gate/partner/usenetreviewz	302
+/r/simplyusenet	http://www.simplyusenet.co.uk/members/aff.php?aff=007	302
+/r/alibis	http://refer.ccbill.com/cgi-bin/clicks.cgi?CA=900318-0000&PA=2052821	302
+/r/usenetbinaries	http://www.usenetbinaries.com?r=apd415;cid=2	302
+/r/usenetnow	http://billing.usenetnow.net/go.php?r=1886&i=b1	302
+/r/newsbin	http://www.regnow.com/softsell/visitor.cgi?affiliate=175444&action=site&vendor=2326	302
+/r/astraweb2	http://affiliate.astraweb.com/10082-2-3-2.html	302
+/r/usenetserver2	https://accounts.usenetserver.com/register/chooseplan.php?rate=52&a_aid=urz&a_bid=5725b6ed&chan=en_org	302
+/r/mimo	http://www.giganews.com/mimo/?a=gonker:urz-mimo	302
+/r/newsgroupscom	http://www.newsgroups.com/affiliate/idevaffiliate.php?id=105	302
+/r/gygan	http://www.gygan.com/affiliate/scripts/t.php?a_aid=2a019b92&a_bid=48a1b327	302
+/r/fastusenet	http://www.fastusenet.org/ref/urz.html	302
+/r/newsserversnet	http://www.newsservers.net/ref/urz.html	302
+/r/giganews-p	http://www.giganews.com/specials/usenet-reviewz-platinum.html?a=gonkerplatinum	302
+/r/newsdemonbf	http://www.newsdemon.com/black-friday-usenet-special.php	302
+/r/nzblord	http://nzblord.com	302
+/r/eweka	https://eweka.nl/partners/?a_aid=urz&a_bid=df65c992&chan=en_org	302
+/r/snelnl	https://www.snelnl.com/?a=113394	302
+/r/xlned	http://www.xlned.com/?a_aid=urz	302
+/r/pureusenet	https://www.pureusenet.nl/?a_aid=urz&a_bid=319a7543&chan=en_org	302
+/r/newsleecher	http://www.newsleecher.com/?a=usenetreviewz	302
+
+{{- range $p := .Site.Pages -}}
+{{- range .Aliases }}
+{{ . }} {{ $p.RelPermalink -}}
+{{- end }}
+{{- end -}}

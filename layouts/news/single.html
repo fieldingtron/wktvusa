@@ -1,0 +1,27 @@
+{{ define "main" }}
+<div class="row">
+    <div class="col-md-8">
+        <h1 class="h3"> {{ .Title }} </h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="/"><i class="fa fa-home" aria-hidden="true"></i>
+                  </a></li>
+                  <li class="breadcrumb-item"><a href="/news/">News</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+                </ol>
+              </nav>
+              <p><strong>Date:</strong> {{ dateFormat ( or $.Site.Params.dateFormat " Jan 02, 2006" ) $.Page.Params.LastMod }}</p>
+
+          
+
+                <div class="text-center pb-3">{{ partial "imagecode.html" . }}</div>             
+         
+           
+            {{ .Content }}
+
+    </div>
+    <div class="col-md-4 " id="sidemenu">
+         {{ partial "main-sidebar.html" .}}
+    </div>
+</div>
+{{ end }}
