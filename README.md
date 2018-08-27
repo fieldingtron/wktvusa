@@ -1,14 +1,10 @@
 # WKTVUSA website
 
-using some boilerplate from  [Atlas, Hugo Boilerplate](https://github.com/indigotree/atlas)
+borrowing some boilerplate from  [Atlas, Hugo Boilerplate](https://github.com/indigotree/atlas)
 
-## Atlas
-
-The [Hugo](https://gohugo.io/) boilerplate we use for our projects.
+Website created using the  [Hugo](https://gohugo.io/) static generated cms
 
 **Disclaimer** - This boilerplate has been heavily integrated with [Netlify](https://www.netlify.com/), and therefore many features are specific to the Netlify platform and may not work with other hosting providers.
-
-**Disclaimer** - Atlas is a boilerplate (starter kit) for bespoke Hugo projects. It's not a Hugo theme and cannot be placed inside the `/themes` directory. Check the [theme](#themes) docs for more information.
 
 ## Features
 

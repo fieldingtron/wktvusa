@@ -8,6 +8,8 @@ import { spawn } from "child_process"
 import tildeImporter from 'node-sass-tilde-importer'
 import htmlmin from 'gulp-htmlmin'
 import replace from 'gulp-replace'
+import changed from 'gulp-changed'
+import imageResize from 'gulp-image-resize'
 // var replace = require('gulp-replace');
 
 
@@ -32,7 +34,7 @@ gulp.task('replace', function () {
 
 gulp.task('server', ['build'], () => {
     gulp.start('init-watch')
-    $.watch(['archetypes/**/*', 'data/**/*', 'content/**/*', 'layouts/**/*', 'static/**/*', 'config.toml'], () => gulp.start('hugo'))
+    $.watch(['archetypes/**/*', 'data/**/*', 'content/**/*', 'layouts/**/*', 'static/**/*', '!static/images/slider/*', 'config.toml'], () => gulp.start('hugo'))
 });
 
 gulp.task('server:with-drafts', ['build-preview'], () => {
@@ -54,7 +56,7 @@ gulp.task('init-watch', () => {
 })
 
 gulp.task('build', () => {
-    runSequence(['sass', 'js', 'fa','fafonts','fonts', 'images', 'pub-delete'], 'hugo')
+    runSequence(['directories', 'make-slider-images','sass', 'js', 'fa','fafonts','fonts', 'images', 'pub-delete'], 'hugo')
 })
 
 
@@ -189,3 +191,22 @@ gulp.task('pub-delete', () => {
       console.log('Files and folders deleted:\n', paths.join('\n'), '\nTotal Files Deleted: ' + paths.length + '\n');
     })
 })
+
+
+gulp.task('directories', function () {
+    return gulp.src('*.*', {read: false})
+        .pipe(gulp.dest('static/images/slider'))  
+});
+
+gulp.task('make-slider-images', () => {
+    return gulp.src('content/images/*.{png,jpg,jpeg,gif,svg,webp,ico}')
+    //.pipe(changed('static/images/slider'))
+    .pipe(imageResize({
+        width : 700,
+        height : 394,
+        crop : true,
+        upscale : false
+      }))
+      .pipe($.imagemin())
+      .pipe(gulp.dest('static/images/slider'));
+});

@@ -1,0 +1,52 @@
+
+<div class="card" >
+  <div class="card-body">
+
+<div id="mainSlider" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      {{ $.Scratch.Set "count" 0 }}
+      {{ range first 5 (where .Site.RegularPages "Section" "in" (slice "videos")) }}  
+        {{ if eq ($.Scratch.Get "count") 0}}
+            <li data-target="#mainSlider" class="active" data-slide-to='{{$.Scratch.Get "count"}}' class="active"></li>
+        {{else}}
+            <li data-target="#mainSlider" data-slide-to='{{$.Scratch.Get "count"}}'></li>
+        {{end}}        
+        {{ $.Scratch.Add "count" 1 }}
+      {{ end }}
+    </ol>
+  
+    <div class="carousel-inner">
+        {{ $.Scratch.Set "count" 0 }}
+        {{ range first 5 (where .Site.RegularPages "Section" "in" (slice "videos")) }}  
+            {{ if eq ($.Scratch.Get "count") 0}}  
+                <div class='carousel-item active'>
+            {{else}}
+                <div class='carousel-item'>
+            {{end}}
+            {{$imageFName := replace .Params.imagef "/images/" "" }}        
+            <img class="d-block w-100" src="/images/{{$imageFName}}" alt="Slider image {{.Name  }}">
+        
+       
+            {{ $.Scratch.Add "count" 1 }}
+            <div class="carousel-caption half-black">
+                    <p><a href="{{.RelPermalink}}" class="text-light">{{.Name}} <i class="fa fa-play-circle fa-2x text-light"></i></a></p>  
+            </div>
+        </div>
+        {{ end }}
+
+        
+
+
+      <a class="carousel-control-prev" href="#mainSlider" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#mainSlider" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    </div>
+</div>
+</div>
+     
