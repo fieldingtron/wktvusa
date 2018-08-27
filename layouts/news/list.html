@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-8">
         <h1 class="h2 text-center"> {{ .Title }}</h1>
                
         {{ .Content }}
@@ -11,7 +11,7 @@
             {{ range first 12 (where .Site.RegularPages "Section" "in" (slice "news")) }}  
             
              <!-- card  -->
-             <div class="col-sm-6 col-lg-4 pb-4">
+             <div class="col-lg-6 pb-4">
                        <div class="card h-100">
                         <div class="card-img">
                             <a href="{{.Permalink}}" class="card-link">
@@ -37,6 +37,8 @@
         <!-- END POSTS SECTION -->
 
      </div>
-    
+     <div class="col-md-4">
+            {{ partial "main-sidebar.html" . }}
+    </div>
 </div>
 {{ end }}

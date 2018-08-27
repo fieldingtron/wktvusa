@@ -1,18 +1,75 @@
 {{ define "main" }}
-
 <div>
     <small> Last Update: {{ now.Format "January 2, 2006" }} </small>
 </div> 
-
 <div class="row">
-    <div class="col-md-5">News Today
+    <div class="col-md-4"> <h6>Video News Today</h6>
             {{ partial "slider.html" . }}
-
+            <div class="row">
+                    <!-- BEGIN POSTS SECTION -->
+                    {{ range first 12 (where .Site.RegularPages "Section" "in" (slice "videos")) }}  
+                        <!-- CARD  -->
+                        <div class="col-sm-6">
+                            <div class="h-100">
+                                {{ $plink := .Permalink}}
+                                {{ $title := .Title }}
+                                <div class="card-img">
+                                    <a href="{{$plink}}" class="card-link">{{ partial "imagecode.html" . }}</a>
+                                </div>             
+                
+                                <div class="card-body">
+                                    <h4 class="card-title"><a href="{{.Permalink}}" class="card-link">{{.Title}}</a></h4>
+                                    <p class="card-text">
+                                        {{ dateFormat "Jan 2, 2006" .Date }}
+                                    </p>
+                                </div>
+                                <!-- <div class="card-footer">
+                                    <a href="{{.Permalink}}" class="card-link">Read more</a>
+                                </div> -->
+                            </div>
+                        </div>
+                    {{end}}   
+                    <!-- END POSTS SECTION -->
+                </div>
     </div>
-    <div class="col-md-5">News Today
+    <div class="col-md-4"><h6>News Today</h6>
+        <div class="row">
+                <!-- BEGIN POSTS SECTION -->
+                {{ range first 12 (where .Site.RegularPages "Section" "in" (slice "news")) }}  
+                    <!-- CARD  -->
+                    <div class="col-sm-6">
+                        <div class="h-100">
+                            {{ $plink := .Permalink}}
+                            {{ $title := .Title }}
+                            <div class="card-img">
+                                <a href="{{$plink}}" class="card-link">{{ partial "imagecode.html" . }}</a>
+                            </div>             
+            
+                            <div class="card-body">
+                                <h4 class="card-title"><a href="{{.Permalink}}" class="card-link">{{.Title}}</a></h4>
+                                <p class="card-text">
+                                    {{ dateFormat "Jan 2, 2006" .Date }}
+                                </p>
+                            </div>
+                            <!-- <div class="card-footer">
+                                <a href="{{.Permalink}}" class="card-link">Read more</a>
+                            </div> -->
+                        </div>
+                    </div>
+                {{end}}   
+                <!-- END POSTS SECTION -->
+            </div>
     </div>
-    <div class="col-md-2">
-        Banner Ads
+    <div class="col-md-4 border border-success text-center">
+        <h6>Banner Ads</h6>
+        <img class="py-1 img-fluid" src="https://dummyimage.com/600x400/828282/fff&text=Ads">
+        <img class="py-1 img-fluid" src="https://dummyimage.com/600x400/828282/fff&text=Ads">
+        <img class="py-1 img-fluid" src="https://dummyimage.com/600x400/828282/fff&text=Ads">
+        <img class="py-1 img-fluid" src="https://dummyimage.com/600x400/828282/fff&text=Ads">
+        <img class="py-1 img-fluid" src="https://dummyimage.com/600x400/828282/fff&text=Ads">
+        <img class="py-1 img-fluid" src="https://dummyimage.com/600x400/828282/fff&text=Ads">
+        <img class="py-1 img-fluid" src="https://dummyimage.com/600x400/828282/fff&text=Ads">
+        <img class="py-1 img-fluid" src="https://dummyimage.com/600x400/828282/fff&text=Ads">
     </div>
 </div>
 
