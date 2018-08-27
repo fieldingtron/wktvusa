@@ -7,7 +7,7 @@
             {{ partial "slider.html" . }}
             <div class="row">
                     <!-- BEGIN POSTS SECTION -->
-                    {{ range first 12 (where .Site.RegularPages "Section" "in" (slice "videos")) }}  
+                    {{ range first 10 (where .Site.RegularPages "Section" "in" (slice "videos")) }}  
                         <!-- CARD  -->
                         <div class="col-sm-6">
                             <div class="h-100">
@@ -35,7 +35,7 @@
     <div class="col-md-4"><h6>News Today</h6>
         <div class="row">
                 <!-- BEGIN POSTS SECTION -->
-                {{ range first 12 (where .Site.RegularPages "Section" "in" (slice "news")) }}  
+                {{ range first 10 (where .Site.RegularPages "Section" "in" (slice "news")) }}  
                     <!-- CARD  -->
                     <div class="col-sm-6">
                         <div class="h-100">
@@ -62,7 +62,6 @@
     </div>
     <div class="col-md-4 border border-success text-center">
         <h6>Banner Ads</h6>
-        <img class="py-1 img-fluid" src="https://dummyimage.com/600x400/828282/fff&text=Ads">
         <img class="py-1 img-fluid" src="https://dummyimage.com/600x400/828282/fff&text=Ads">
         <img class="py-1 img-fluid" src="https://dummyimage.com/600x400/828282/fff&text=Ads">
         <img class="py-1 img-fluid" src="https://dummyimage.com/600x400/828282/fff&text=Ads">
