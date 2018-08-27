@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://wktvusa.netlify.com/"
 languageCode = "en-us"
 title = "Wktvusa.com"
 disableHugoGeneratorInject = true
