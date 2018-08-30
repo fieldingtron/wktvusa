@@ -28,7 +28,7 @@ collections:
       - { label: "YouTube URL", name: "youtube", widget: "string" , pattern: [".{11,11}", "Must have 11 characters and match youtube id"]}
       - { label: "Body", name: "body", widget: "markdown" }
 
-    -name: "pages"
+  - name: "pages"
     label: "Pages"
     files:
     - file: "content/_index.md"
