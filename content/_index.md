@@ -1,5 +1,20 @@
 ---
-title: Welcome to WKTVUSA
-date: 2018-08-03T15:09:39.060Z
+title: Welcome to WKTVUSA we like it here
+subtitle: subtitle
+image: /images/2016-03-24975.jpg
+blurb:
+  heading: test blurb heading
+  text: blurb text
+intro:
+  heading: intor heading
+  text: intro text
+ads:
+  - image: /images/2016-04-24239.jpg
+    url: 'http://weburl'
+  - image: /images/2016-06-25261.jpg
+    url: 'http://www.amazon.com'
+values:
+  heading: values
+  text: values text
 ---
-Welcome to Wktvusa.com.  Please [contact us](/contact-us/) if you would like. hello
+
