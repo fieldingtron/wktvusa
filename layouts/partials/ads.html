@@ -1,0 +1,5 @@
+{{ range $index, $element := .Params.ads }}
+    {{ with $element.url }}<a href="{{$element.url}}" target="_blank">{{end}}
+            {{ partial "imagecode.html" (dict "imagename" $element.image  "alt" "Advertisement" "css" "img-fluid py-1" "imgdir" ($.Site.GetPage "section" "images") ) }}
+    {{ with $element.url }}</a>{{end}}      
+{{ end }}

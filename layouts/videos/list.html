@@ -14,7 +14,7 @@
                                    <div class="card h-100">
                                         <div class="card-img">
                                             <a href="{{.Permalink}}" class="card-link">
-                                                {{ partial "imagecode.html" . }}                            
+                                                    {{ partial "imagecode.html" (dict "imagename" .Params.imagef  "alt" .Title "css" "img-fluid p-3" "imgdir" ($.Site.GetPage "section" "images") ) }}                                                   
                                             </a>
                                         </div>
                     

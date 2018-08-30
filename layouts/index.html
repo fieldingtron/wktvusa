@@ -14,7 +14,9 @@
                                 {{ $plink := .Permalink}}
                                 {{ $title := .Title }}
                                 <div class="card-img">
-                                    <a href="{{$plink}}" class="card-link">{{ partial "imagecode.html" . }}</a>
+                                    <a href="{{$plink}}" class="card-link">
+                                        {{ partial "imagecode.html" (dict "imagename" .Params.imagef  "alt" .Title "css" "img-fluid p-3" "imgdir" ($.Site.GetPage "section" "images") ) }}
+                                    </a>
                                 </div>             
                 
                                 <div class="card-body">
@@ -42,7 +44,9 @@
                             {{ $plink := .Permalink}}
                             {{ $title := .Title }}
                             <div class="card-img">
-                                <a href="{{$plink}}" class="card-link">{{ partial "imagecode.html" . }}</a>
+                                <a href="{{$plink}}" class="card-link">
+                                        {{ partial "imagecode.html" (dict "imagename" .Params.imagef  "alt" .Title "css" "img-fluid p-3" "imgdir" ($.Site.GetPage "section" "images") ) }}
+                                </a>
                             </div>             
             
                             <div class="card-body">
@@ -60,15 +64,10 @@
                 <!-- END POSTS SECTION -->
             </div>
     </div>
-    <div class="col-md-4 border border-success text-center">
-        <h6>Banner Ads</h6>
-        <img class="py-1 img-fluid" src="https://dummyimage.com/600x400/828282/fff&text=Ads">
-        <img class="py-1 img-fluid" src="https://dummyimage.com/600x400/828282/fff&text=Ads">
-        <img class="py-1 img-fluid" src="https://dummyimage.com/600x400/828282/fff&text=Ads">
-        <img class="py-1 img-fluid" src="https://dummyimage.com/600x400/828282/fff&text=Ads">
-        <img class="py-1 img-fluid" src="https://dummyimage.com/600x400/828282/fff&text=Ads">
-        <img class="py-1 img-fluid" src="https://dummyimage.com/600x400/828282/fff&text=Ads">
-        <img class="py-1 img-fluid" src="https://dummyimage.com/600x400/828282/fff&text=Ads">
+    <div class="col-md-4 border text-center">
+        <!-- <h6>Banner Ads</h6> -->
+        {{ partial "ads.html" . }}
+        <!-- {{ .Params.ads}} <br> -->
     </div>
 </div>
 

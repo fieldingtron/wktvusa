@@ -14,8 +14,12 @@
 
           
 
-                <div class="text-center pb-3">{{ partial "imagecode.html" . }}</div>             
-         
+                <div class="text-center pb-3">
+                {{ partial "imagecode.html" (dict "imagename" .Params.imagef  "alt" .Title "css" "img-fluid p-3" "imgdir" ($.Site.GetPage "section" "images") ) }}
+
+                 
+                </div> 
+
            
             {{ .Content }}
 

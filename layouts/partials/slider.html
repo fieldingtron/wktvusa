@@ -24,7 +24,9 @@
                 <div class='carousel-item'>
             {{end}}
             {{$imageFName := replace .Params.imagef "/images/" "" }}        
-            <img class="d-block w-100" src="/images/{{$imageFName}}" alt="Slider image {{.Name  }}">
+            <!-- <img class="d-block w-100" src="/images/{{$imageFName}}" alt="Slider image {{.Name  }}"> -->
+            {{ partial "imagecode.html" (dict "imagename" $imageFName  "alt" "Slider image {{.Name  }}" "css" "d-block w-100" "imgdir" ($.Site.GetPage "section" "images") ) }}
+
         
        
             {{ $.Scratch.Add "count" 1 }}
