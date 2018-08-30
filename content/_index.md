@@ -9,5 +9,8 @@ ads:
     url: 'https://amazon.com'
   - desc: Billboard
     image: /images/ad-korean3.jpg
+  - image: /images/ad-korean1.jpg
+  - image: /images/ad-korean2.jpg
+  - image: /images/ad-korean3.jpg
 ---
 
