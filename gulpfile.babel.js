@@ -56,7 +56,7 @@ gulp.task('init-watch', () => {
 })
 
 gulp.task('build', () => {
-    runSequence(['directories', 'make-slider-images','sass', 'js', 'fa','fafonts','fonts', 'images', 'pub-delete'], 'hugo')
+    runSequence(['sass', 'js', 'images', 'pub-delete'], 'hugo')
 })
 
 
@@ -112,11 +112,10 @@ gulp.task('hugo-preview', (cb) => {
     })
 })
 
-// --
 
 gulp.task('sass', () => {
     return gulp.src([
-        'node_modules/bootstrap/scss/bootstrap.scss',
+        // 'node_modules/bootstrap/scss/bootstrap.scss',
         'src/sass/**/*.scss'
     ])
     .pipe($.plumber({ errorHandler: onError }))
@@ -137,11 +136,7 @@ gulp.task('js-watch', ['js'], (cb) => {
 });
 
 gulp.task('js', () => {
-    return gulp.src([
-        'node_modules/bootstrap/dist/js/bootstrap.min.js',
-        'node_modules/jquery/dist/jquery.min.js',
-        'node_modules/popper.js/dist/umd/popper.min.js',
-        'src/js/**/*.js'
+    return gulp.src(['src/js/**/*.js'
     ])
     // .pipe($.plumber({ errorHandler: onError }))
     // .pipe($.print())
@@ -152,23 +147,23 @@ gulp.task('js', () => {
     .pipe(gulp.dest('static/js'))
 })
 
-gulp.task('fonts', () => {
-    //return gulp.src('src/fonts/**/*.{woff,woff2}')
-    return gulp.src('src/fonts/**/*.*')
-        .pipe(gulp.dest('static/fonts'));
-});
+// gulp.task('fonts', () => {
+//     //return gulp.src('src/fonts/**/*.{woff,woff2}')
+//     return gulp.src('src/fonts/**/*.*')
+//         .pipe(gulp.dest('static/fonts'));
+// });
 
-// Move Fonts Folder to src/fonts
-gulp.task('fafonts', function(){
-    return gulp.src('node_modules/font-awesome/fonts/*')
-        .pipe(gulp.dest("src/fonts"));
-    });
+// // Move Fonts Folder to src/fonts
+// gulp.task('fafonts', function(){
+//     return gulp.src('node_modules/font-awesome/fonts/*')
+//         .pipe(gulp.dest("src/fonts"));
+//     });
     
-// Move Font Awesome CSS to src/css
-gulp.task('fa', function(){
-return gulp.src('node_modules/font-awesome/css/font-awesome.min.css')
-    .pipe(gulp.dest("static/css"));
-});
+// // Move Font Awesome CSS to src/css
+// gulp.task('fa', function(){
+// return gulp.src('node_modules/font-awesome/css/font-awesome.min.css')
+//     .pipe(gulp.dest("static/css"));
+// });
 
 
 gulp.task('images', () => {
@@ -191,7 +186,6 @@ gulp.task('pub-delete', () => {
       console.log('Files and folders deleted:\n', paths.join('\n'), '\nTotal Files Deleted: ' + paths.length + '\n');
     })
 })
-
 
 gulp.task('directories', function () {
     return gulp.src('*.*', {read: false})

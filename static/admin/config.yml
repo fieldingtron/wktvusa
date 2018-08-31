@@ -40,20 +40,16 @@ collections:
             {label: "Image", name: "image", widget: "image"},
             {label: "Description", name: "desc", widget: string},
             {label: "URL", name: "url", widget: string}]}
-    - file: "content/mainpages/contactus.md"
-      label: "Contact Page"
-      name: "contact"
+    - file: "content/mainpages/organization.md"
+      label: "Organization Page"
+      name: "organization"
       fields:
         - {label: Title, name: title, widget: string}
-        - {label: Logo, name: logo, widget: image}
+        - {label: "Members", name: members, widget: list, fields: [
+          {label: "Name", name: "name", widget: string},
+          {label: "Title", name: "title", widget: string},
+          {label: "Picture", name: "pic", widget: "image"},
+          {label: "Contact", name: "info", widget: string}]}
         - {label: Body, name: body, widget: markdown}
-        - label: Contact Entries
-          name: contact_entries
-          widget: list
-          fields:
-            - label: Heading
-              name: heading
-              widget: string
-            - label: Text
-              name: text
-              widget: text
+       
+    

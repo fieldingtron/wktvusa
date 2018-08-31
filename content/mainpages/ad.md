@@ -7,4 +7,6 @@ url: /ad/
 weight: 8
 rank: 4
 ---
-
+<div class="text-center">
+<img src="/images/adrates-wktv.png" class="img-fluid p-3" alt="Ad Rates">
+</div>
