@@ -37,10 +37,6 @@ gulp.task('server', ['build'], () => {
     $.watch(['archetypes/**/*', 'data/**/*', 'content/**/*', 'layouts/**/*', 'static/**/*', '!static/images/slider/*', 'config.toml'], () => gulp.start('hugo'))
 });
 
-gulp.task('server:with-drafts', ['build-preview'], () => {
-    gulp.start('init-watch')
-    $.watch(['archetypes/**/*', 'data/**/*', 'content/**/*', 'layouts/**/*', 'static/**/*', 'config.toml'], () => gulp.start('hugo-preview'))
-});
 
 gulp.task('init-watch', () => {
     suppressHugoErrors = true;
@@ -59,10 +55,6 @@ gulp.task('build', () => {
     runSequence(['sass', 'js', 'images', 'pub-delete'], 'hugo')
 })
 
-
-gulp.task('build-preview', () => {
-    runSequence(['sass', 'js', 'fa','fafonts','fonts', 'images', 'pub-delete'], 'hugo-preview')
-})
 
 gulp.task('minify-html', () => {
     return gulp.src('public/**/*.html')
@@ -93,24 +85,6 @@ gulp.task('hugo', (cb) => {
     })
 })
 
-
-
-gulp.task('hugo-preview', (cb) => {
-    let args = ['--buildDrafts', '--buildFuture'];
-    if (process.env.DEPLOY_PRIME_URL) {
-        args.push('-b')
-        args.push(process.env.DEPLOY_PRIME_URL)
-    }
-    return spawn('hugo', args, { stdio: 'inherit' }).on('close', (code) => {
-        if (suppressHugoErrors || code === 0) {
-            browserSync.reload()
-            cb()
-        } else {
-            console.log('hugo command failed.');
-            cb('hugo command failed.');
-        }
-    })
-})
 
 
 gulp.task('sass', () => {
