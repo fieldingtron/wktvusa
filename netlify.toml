@@ -9,5 +9,5 @@
     HUGO_ENV = "production"
     NODE_ENV = "production"
 
-[context.deploy-preview]
-    command = "npm run build:preview"
+[context.branch-deploy]
+    command = "npm run build"
