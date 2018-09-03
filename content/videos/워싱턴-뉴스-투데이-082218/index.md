@@ -1,0 +1,36 @@
+---
+author: Jihee Jeong
+date: 2018-08-23 18:09:02
+id: 34802
+image: /wp-content/uploads/2018/08/1.0-9-e1535065706104.png
+imagef: 2018-08-34802.jpg
+tags:
+- KOREA ONE
+- KOREA TODAY
+- KOREAN NEWS
+- Korus News
+- NEWS TODAY
+- "NEWS \uB274\uC2A4\uD22C\uB370\uC774"
+- SIRIUS XM CH144
+- WASHINGTON KOREAN NEWS
+- WASHINGTON NEWS
+- WASHINGTON NEWS TODAY
+- WKTV
+- XM144
+- "\uB274\uC2A4"
+- "\uBBF8\uAD6D\uB0B4 \uD55C\uAD6D \uB274\uC2A4"
+- "\uC6CC\uC2F1\uD134 \uB274\uC2A4"
+- "\uC6CC\uC2F1\uD134 \uB274\uC2A4 \uD22C\uB370\uC774"
+- "\uCF54\uB7EC\uC2A4"
+- "\uCF54\uB7EC\uC2A4 \uB274\uC2A4"
+- "\uCF54\uB9AC\uC544 \uD22C\uB370\uC774"
+- "\uCF54\uB9AC\uC548 \uB274\uC2A4"
+- "\uD55C\uAD6D\uB274\uC2A4"
+title: "\uC6CC\uC2F1\uD134 \uB274\uC2A4 \uD22C\uB370\uC774 082218"
+youtube: yCsWZwqrrxI
+youtube-url: https://www.youtube.com/watch?v=yCsWZwqrrxI
+---
+
+2018년 08월 22일 저녁뉴스 WKTV NEWS CENTER
+  
+WKTV WORLD NEWS 워싱턴 뉴스 투데이 082218
