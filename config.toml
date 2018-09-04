@@ -35,7 +35,7 @@ notAlternative = true
 # Default resample filter used for resizing. Default is Box,
 # a simple and fast averaging filter appropriate for downscaling.
 # See https://github.com/disintegration/imaging
-resampleFilter = "box"
+# resampleFilter = "box"
 
 # Defatult JPEG quality setting. Default is 75.
-quality = 90
+# quality = 90
