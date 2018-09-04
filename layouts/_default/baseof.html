@@ -11,7 +11,7 @@
             <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
         {{ end }}
 
-        {{ block "site/styles" . }}{{ partial "site/styles.html" . }}{{ end }}
+        {{ block "site/styles" . }}{{ partialCached  "site/styles.html" . }}{{ end }}
         <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
     </head>
@@ -30,13 +30,13 @@
                     }
                   </script>
                   
-        {{ block "navbar" . }}{{ partial "site/navbar.html" . }}{{ end }}
+        {{ block "navbar" . }}{{ partialCached  "site/navbar.html" . }}{{ end }}
         <div class="site-main">
             <div class="container">
             {{ block "main" . }}{{ end }}
             </div>
         </div>
-        {{ block "footer" . }}{{ partial "site/footer.html" . }}{{ end }}
-        {{ block "site/scripts" . }}{{ partial "site/scripts.html" . }}{{ end }}
+        {{ block "footer" . }}{{ partialCached  "site/footer.html" . }}{{ end }}
+        {{ block "site/scripts" . }}{{ partialCached  "site/scripts.html" . }}{{ end }}
     </body>
 </html>

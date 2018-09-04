@@ -20,7 +20,7 @@
                                 </div>             
                 
                                 <div class="card-body">
-                                    <h4 class="card-title"><a href="{{.Permalink}}" class="card-link">{{.Title}}</a></h4>
+                                    <h6 class="card-title"><a href="{{.Permalink}}" class="card-link">{{.Title}}</a></h6>
                                     <p class="card-text">
                                         {{ dateFormat "Jan 2, 2006" .Date }}
                                     </p>
@@ -50,7 +50,7 @@
                             </div>             
             
                             <div class="card-body">
-                                <h4 class="card-title"><a href="{{.Permalink}}" class="card-link">{{.Title}}</a></h4>
+                                <h6 class="card-title"><a href="{{.Permalink}}" class="card-link">{{.Title}}</a></h6>
                                 <p class="card-text">
                                     {{ dateFormat "Jan 2, 2006" .Date }}
                                 </p>
@@ -65,9 +65,7 @@
             </div>
     </div>
     <div class="col-md-4 border text-center">
-        <!-- <h6>Banner Ads</h6> -->
-        {{ partial "ads.html" . }}
-        <!-- {{ .Params.ads}} <br> -->
+        {{ partialCached  "ads.html" . }}
     </div>
 </div>
 

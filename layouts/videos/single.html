@@ -31,9 +31,8 @@
             {{ .Content }}
     </div>
     <div class="col-md-4 " id="sidemenu">
-         {{ partial "main-sidebar.html" .}}
+         {{ partialCached  "main-sidebar.html" .}}
     </div>
 </div>
-{{ partial "modal.html" . }}
 
 {{ end }}
