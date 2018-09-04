@@ -23,13 +23,14 @@ def writeToMd(filename,post):
     filez.write(clean_data)
     filez.close()
 
-wdir = 'C:\\Users\\fielding\\Documents\\wktvusa.com\\tmp'
 
 count = 1
-os.chdir(wdir)
 filePattern = "*.md"
 
+wdir = 'C:\\Users\\fielding\\Documents\\wktvusa.com\\tmp'
+os.chdir(wdir)
 ## get .md files recursively and remove slug reference and other tags
+## load all .md files from wdir
 for path, dirs, files in os.walk(os.path.abspath(wdir)):
     for filename in fnmatch.filter(files, filePattern):
         filepath = os.path.join(path, filename)
@@ -56,13 +57,13 @@ for path, dirs, files in os.walk(os.path.abspath(wdir)):
         cdir =  baseContentDir + "\\" + subContentDir + "\\" + kdir
         cdir_img = baseContentDir+"\\images"   
 
-        if not os.path.exists(cdir):
-            os.makedirs(cdir)
-            print("creating " + cdir)
+        # if not os.path.exists(cdir):
+        #     os.makedirs(cdir)
+        #     print("creating " + cdir)
 
-        # if not os.path.exists(cdir_img):
-        #     os.makedirs(cdir_img)
-        #     print("creating " + cdir_img)
+        if not os.path.exists(cdir_img):
+            os.makedirs(cdir_img)
+            print("creating " + cdir_img)
 
 
 
@@ -106,7 +107,7 @@ for path, dirs, files in os.walk(os.path.abspath(wdir)):
 
         ## clean up unused tags
         removelist = ['slug','wpzoom_post_template','wpzoom_post_embed_location','wpzoom_post_embed_self','wpzoom_post_embed_hd','wpzoom_post_embed_skin','guid',
-         'categories','layout','wpzoom_post_embed_code',
+         'categories','layout','wpzoom_post_embed_code','permalink',
         'text-retention','ssl-ports','robotsmeta']
         removelist_len = len(removelist)    
         for i in range(0, removelist_len):

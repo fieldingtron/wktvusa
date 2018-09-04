@@ -1,7 +1,7 @@
-baseURL = "/"
-languageCode = "en-us"
+baseURL = "https://www.wktvusa.com"
+languageCode = "ko-KR"
 title = "Wktvusa.com"
-disableHugoGeneratorInject = true
+disableHugoGeneratorInject = false
 disableKinds = ["taxonomyTerm"]
 summarylength = 30
 

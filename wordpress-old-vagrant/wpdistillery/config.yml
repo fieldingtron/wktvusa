@@ -93,7 +93,7 @@ plugins_inactive:
 setup:
   wp: true
   settings: true
-  theme: true
+  theme: false
   plugins: true
   cleanup: true
   # adjust what data you want to be deleted within the cleanup (requires `cleanup: true`)

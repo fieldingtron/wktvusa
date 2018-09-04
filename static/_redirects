@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://wktvusa.netlify.com/* https://www.wktvusa.com/:splat 301!

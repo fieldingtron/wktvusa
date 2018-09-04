@@ -1,0 +1,17 @@
+---
+Views:
+- '8'
+author: Jihee Jeong
+date: 2016-09-02 09:24:52
+id: 26593
+image: /wp-content/uploads/2016/09/3.0.jpg
+imagef: 2016-09-26593.jpg
+permalink: /%ec%9b%8c%ec%8b%b1%ed%84%b4-%eb%89%b4%ec%8a%a4-%ed%88%ac%eb%8d%b0%ec%9d%b4-090116/
+title: "\uC6CC\uC2F1\uD134 \uB274\uC2A4 \uD22C\uB370\uC774 090116"
+youtube: wbN2xZDddoc
+youtube-url: https://www.youtube.com/watch?v=wbN2xZDddoc
+---
+
+2016년 9월 1일 저녁뉴스 WKTV NEWS CENTER
+  
+WKTV WORLD NEWS 워싱턴 뉴스 투데이 090116

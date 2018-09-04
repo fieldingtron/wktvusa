@@ -1,0 +1,15 @@
+---
+Views:
+- '12'
+author: Jihee Jeong
+date: 2016-07-19 17:07:42
+id: 25748
+image: /wp-content/uploads/2016/07/6.-6.jpg
+imagef: 2016-07-25748.jpg
+permalink: /%ec%9e%87%eb%8b%a8-%ec%a0%80%ea%b2%a9%ec%97%90-%ea%b2%bd%ec%b0%b0-%ec%b4%88%ea%b8%b4%ec%9e%a5/
+title: "\uC787\uB2E8 \uC800\uACA9\uC5D0 \uACBD\uCC30 \uCD08\uAE34\uC7A5\u2026"
+---
+
+<p style="text-indent: 9.0pt;margin: 19.5pt 0cm 19.5pt 0cm">
+  <span style="font-family: '맑은 고딕';color: black;letter-spacing: -.75pt">언론에 따르면<span lang="EN-US">, </span>루이지애나 주 배턴 루지에서 매복 조준 사격으로 경관<span lang="EN-US"> 3</span>명이 사망하고<span lang="EN-US"> 3</span>명이 다친 뒤 뉴욕<span lang="EN-US">, </span>보스턴<span lang="EN-US">, </span>시카고 등 대도시 경찰국은 휘하 경관들에게 순찰 때 반드시<span lang="EN-US"> 2</span>인<span lang="EN-US"> 1</span>조로 근무하고 절대 방심하지 말라고 지시했습니다<span lang="EN-US">. </span></span><span style="font-family: '맑은 고딕';color: black;letter-spacing: -.75pt">배턴 루지와 미네소타 주 세인트 앤서니 시에서 발생한 경찰의 공권력 과잉 사용에 따른 연쇄 흑인 사망 사건으로 인종 갈등이 다시 첨예해지는 상황에서 지난<span lang="EN-US"> 7</span>일 텍사스 주 댈러스와<span lang="EN-US"> 17</span>일 배턴 루지에서 터진 매복 저격으로 경관<span lang="EN-US"> 8</span>명이 숨졌습니다<span lang="EN-US">. </span></span><span style="font-family: '맑은 고딕';color: black;letter-spacing: -.75pt">폭탄을 장착한 경찰 로봇에 목숨을 잃은 댈러스 저격범 마이카 제이비어 존슨<span lang="EN-US">(25)</span>과 경찰의 대응 사격에 사살된 배턴 루지 총격범 개빈 유진 롱<span lang="EN-US">(29)</span>은 모두 흑인이자 군에서 복무한 이력을 지녀 미국민에게 충격을 안겼습니다<span lang="EN-US">. </span></span><span style="font-family: '맑은 고딕';color: black;letter-spacing: -.75pt">존슨은 아프가니스탄에 다녀온 육군 예비역이었고<span lang="EN-US">, </span>롱은 해병대에 입대해 이라크에 다녀왔습니다<span lang="EN-US">. </span></span><span style="font-family: '맑은 고딕';color: black;letter-spacing: -.75pt">흑인 사망 사건에 분개하던 두 저격범은 치밀한 계획 끝에 경찰만을 골라 방아쇠를 당겼습니다<span lang="EN-US">. </span></span><span style="font-family: '맑은 고딕';color: black;letter-spacing: -.75pt">이처럼 경관이 저격범의 공격 목표가 되자 경찰은 단독 표적이 될 가능성을 막고 공격에 곧바로 대응하자는 뜻에서<span lang="EN-US"> 2</span>명 이상씩 조를 이뤄 움직이도록 각 경관에게 지시했습니다<span lang="EN-US">. </span></span><span style="font-family: '맑은 고딕';color: black;letter-spacing: -.75pt">뉴욕 경찰국은<span lang="EN-US"> &#8220;</span>순찰 지역에 반드시<span lang="EN-US"> 2</span>명 이상씩 머물러야 한다<span lang="EN-US">&#8220;</span>면서<span lang="EN-US"> &#8220;</span>밥을 먹거나 쉴 때도 같이 움직이라<span lang="EN-US">&#8220;</span>고 지시했습니다<span lang="EN-US">. </span></span><span style="font-family: '맑은 고딕';color: black;letter-spacing: -.75pt">시카고 경찰국도 성명을 내어<span lang="EN-US"> &#8220;</span>당장 우리 지역에 경관 위협 정보는 없지만<span lang="EN-US">, </span>경관들은 늘 함께 순찰하고 경찰복을 입고 있을 땐 조금도 방심하지 말라<span lang="EN-US">&#8220;</span>고 강조했습니다<span lang="EN-US">. </span></span><span style="font-family: '맑은 고딕';color: black;letter-spacing: -.75pt">콜로라도 주 덴버 경찰국 역시 지시를 통해 경찰국에 올 때나 순찰을 할 때 추가 지시 사항이 내려질 때까지 반드시<span lang="EN-US"> 2</span>명 이상씩 함께 움직이라고 당부했습니다<span lang="EN-US">. </span></span><span style="font-family: '맑은 고딕';color: black;letter-spacing: -.75pt">보스턴 경찰국도 순찰조 인원을<span lang="EN-US"> 2</span>명으로 못 박았습니다<span lang="EN-US">.</span></span>
+</p>
