@@ -30,6 +30,7 @@ collections:
 
   - name: "pages"
     label: "Main Pages"
+    delete: false
     files:
     - file: "content/_index.md"
       label: "Home Page"
