@@ -1,5 +1,5 @@
 baseURL = "https://www.wktvusa.com"
-languageCode = "en-us"
+languageCode = "ko-KR"
 title = "Wktvusa.com"
 disableHugoGeneratorInject = false
 disableKinds = ["taxonomyTerm"]
