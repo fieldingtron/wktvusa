@@ -1,5 +1,11 @@
 {{ range $index, $element := .Params.ads }}
     {{ with $element.url }}<a href="{{$element.url}}" target="_blank">{{end}}
+            {{ with $element.youtube }}  
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ $element.youtube }}?rel=0" allowfullscreen></iframe>
+                </div>
+            {{ else }} 
             {{ partial "imagecode.html" (dict "imagename" $element.image  "alt" "Advertisement" "css" "img-fluid py-1" "imgdir" ($.Site.GetPage "section" "images") ) }}
-    {{ with $element.url }}</a>{{end}}      
+            {{ end }}
+            {{ with $element.url }}</a>{{end}}      
 {{ end }}

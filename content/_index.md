@@ -10,6 +10,7 @@ ads:
   - desc: Billboard
     image: /images/ad-korean3.jpg
     url: /ad/
+    youtube: WGTxqhSN8bE
   - image: /images/ad-korean1.jpg
     url: /ad/
   - image: /images/ad-korean2.jpg
