@@ -1,7 +1,7 @@
 ---
 title: Welcome to WKTVUSA
 ads:
-  - desc: BANK OF HOPE
+  - desc: BANK OF HOPE TV 광고 미 3대 광고상 석권
     image: /images/ad-korean1.jpg
     url: 'https://youtu.be/7raqN5GvxMo/ad/'
     youtube: 'https://youtu.be/7raqN5GvxMo'
