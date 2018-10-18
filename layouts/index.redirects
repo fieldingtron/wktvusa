@@ -3,6 +3,8 @@
 /mainpages/ /
 /admin /admin/
 
+http://wktvusa.netlify.com/* https://www.wktvusa.com/:splat 301!
+https://wktvusa.netlify.com/* https://www.wktvusa.com/:splat 301!
 #news
 
 
