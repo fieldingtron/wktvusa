@@ -1,19 +1,9 @@
 ---
-title: Welcome to WKTVUSA
+title: 안젤리카 리 변호사
 ads:
-  - desc: BANK OF HOPE TV 광고 미 3대 광고상 석권
+  - desc: 안젤리카 변호사 교통사고 돌파구 첫방송
     image: /images/ad-korean1.jpg
     url: /ad/
-    youtube: 7raqN5GvxMo
-  - desc: Look Great
-    image: /images/ad-korean2.jpg
-    url: /ad/
-  - image: /images/ad-korean1.jpg
-    url: /ad/
-  - image: /images/ad-korean2.jpg
-    url: /ad/
-  - desc: Test Advertisement
-    image: /images/ad-korean3.jpg
-    url: /ad/
+    youtube: 'https://www.youtube.com/watch?v=sf41N4ii1I8'
 ---
 
