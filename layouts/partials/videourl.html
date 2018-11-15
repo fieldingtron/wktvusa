@@ -1,0 +1,15 @@
+{{ $URLFormat := false }}
+<!-- youtube -->
+{{ if in .youtube "youtube.com/" }}
+    {{ $URLFormat = true }}
+{{ end }}
+{{ if in .youtube "youtu.be/" }}
+    {{ $URLFormat = true }}
+{{ end }}
+<!-- {{.youtube}}  -->
+{{ if eq $URLFormat true}}
+{{ $vurl := replaceRE "^.+v=([a-zA-Z0-9_-]+)" "$1" .youtube }}
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{$vurl}}?rel=0" allowfullscreen></iframe>
+{{ else }}
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{.youtube}}?rel=0" allowfullscreen></iframe>
+{{end}}
