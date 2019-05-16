@@ -20,7 +20,7 @@ sections:
   - video
 upload_dir: content/images
 public_path: "/images"
-front_matter_path: ''
+front_matter_path: "/images"
 use_front_matter_path: true
 file_template: ":filename:"
 build:
