@@ -9,11 +9,15 @@ sections:
   label: News
   create: documents
   match: "**/*"
+  templates:
+  - news
 - type: directory
   path: content/videos
   label: Videos
   create: documents
   match: "**/*"
+  templates:
+  - video
 upload_dir: content/images
 public_path: "/images"
 front_matter_path: ''
