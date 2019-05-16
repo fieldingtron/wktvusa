@@ -12,5 +12,6 @@ fields:
   name: imagef
   label: imagef
 pages:
+- content/news/test.md
 - content/news/2018-09-26_무인점포-시대-도래…아미존고-향후-3년간-3000곳-확대.md
 - content/news/2018-09-05_‘켈로그-시리얼’-식중독-파문-확산…34명-병원행.md
