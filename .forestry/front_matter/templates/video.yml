@@ -1,0 +1,34 @@
+---
+label: Video
+hide_body: false
+fields:
+- type: list
+  name: Views
+  label: Views
+- type: text
+  name: author
+  label: author
+- type: datetime
+  name: date
+  label: date
+- type: number
+  name: id
+  label: id
+- type: file
+  name: image
+  label: image
+- type: file
+  name: imagef
+  label: imagef
+- type: list
+  name: tags
+  label: tags
+- type: text
+  name: title
+  label: title
+- type: text
+  name: youtube
+  label: youtube
+- type: text
+  name: youtube-url
+  label: youtube-url
