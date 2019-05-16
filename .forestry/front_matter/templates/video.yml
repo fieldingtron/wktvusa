@@ -2,18 +2,17 @@
 label: Video
 hide_body: false
 fields:
-- type: list
-  name: Views
-  label: Views
 - type: text
   name: author
   label: author
+  description: Type your Name here
 - type: datetime
   name: date
   label: date
 - type: number
   name: id
   label: id
+  hidden: true
 - type: file
   name: image
   label: image
@@ -23,6 +22,7 @@ fields:
 - type: list
   name: tags
   label: tags
+  hidden: true
 - type: text
   name: title
   label: title
@@ -32,3 +32,4 @@ fields:
 - type: text
   name: youtube-url
   label: youtube-url
+  hidden: true
