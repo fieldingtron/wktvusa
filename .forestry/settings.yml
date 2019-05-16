@@ -7,12 +7,12 @@ sections:
 - type: directory
   path: content/news
   label: News
-  create: all
+  create: documents
   match: "**/*"
 - type: directory
   path: content/videos
   label: Videos
-  create: all
+  create: documents
   match: "**/*"
 upload_dir: content/images
 public_path: "/images"
