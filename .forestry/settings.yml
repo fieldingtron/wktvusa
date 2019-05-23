@@ -7,7 +7,6 @@ sections:
 - type: document
   path: content/_index.md
   label: Ads
-  match: "**/*"
 - type: directory
   path: content/news
   label: News
