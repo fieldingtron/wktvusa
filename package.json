@@ -47,5 +47,8 @@
     "presets": [
       "es2015"
     ]
+  },
+  "devDependencies": {
+    "del": "^4.1.1"
   }
 }
